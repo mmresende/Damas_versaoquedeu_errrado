@@ -1,0 +1,132 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TESTETABULEIRO.comp
+
+   Nome do Construto:           TESTETABULEIRO
+   Diretório base:              c:\Users\Jose\Documents\GitHub\damas\Composicao
+
+   Arquivo composição:          TESTETABULEIRO.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TESTETABULEIRO.make
+   Arquivo diretivas LINK:      TESTETABULEIRO.build
+   Arquivo listagem:            TESTETABULEIRO.list
+
+Módulos do construto: TESTETABULEIRO.comp
+
+   testtabuleiro.c
+   tabuleiro.c
+   lista.c
+   peca.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: lista.c
+      Total linhas:             464
+      Linhas de código:         253
+      Linhas de comentário:     139
+      Linhas em branco:          88
+   Arquivos de inclusão de que necessita
+      lista.h
+
+   Estatísticas do arquivo: lista.h
+      Total linhas:             359
+      Linhas de código:          30
+      Linhas de comentário:     298
+      Linhas em branco:          36
+   Arquivos em que é incluído
+      lista.c
+      tabuleiro.c
+
+   Estatísticas do arquivo: peca.c
+      Total linhas:             144
+      Linhas de código:          67
+      Linhas de comentário:      65
+      Linhas em branco:          19
+   Arquivos de inclusão de que necessita
+      peca.h
+
+   Estatísticas do arquivo: peca.h
+      Total linhas:             224
+      Linhas de código:          15
+      Linhas de comentário:     197
+      Linhas em branco:          12
+   Arquivos em que é incluído
+      peca.c
+      tabuleiro.c
+      testtabuleiro.c
+
+   Estatísticas do arquivo: tabuleiro.c
+      Total linhas:             290
+      Linhas de código:         151
+      Linhas de comentário:     107
+      Linhas em branco:          40
+   Arquivos de inclusão de que necessita
+      lista.h
+      peca.h
+      tabuleiro.h
+
+   Estatísticas do arquivo: tabuleiro.h
+      Total linhas:             213
+      Linhas de código:          11
+      Linhas de comentário:     187
+      Linhas em branco:          15
+   Arquivos em que é incluído
+      tabuleiro.c
+      testtabuleiro.c
+
+   Estatísticas do arquivo: testtabuleiro.c
+      Total linhas:             199
+      Linhas de código:         102
+      Linhas de comentário:      63
+      Linhas em branco:          43
+   Arquivos de inclusão de que necessita
+      peca.h
+      tabuleiro.h
+
+Totais por tipo de arquivo
+
+  Tipo: h        Path: ..\Fontes
+         Total linhas do tipo:       796
+         Linhas de código:            56
+         Linhas de comentário:       682
+         Linhas em branco:            63
+         Arquivos deste tipo:          3
+
+  Tipo: obj      Path: ..\Objetos
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: ..\Produto
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: ..\Fontes
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: c        Path: ..\Fontes
+         Total linhas do tipo:      1097
+         Linhas de código:           573
+         Linhas de comentário:       374
+         Linhas em branco:           190
+         Arquivos deste tipo:          4
+
+Totais para todo o construto TESTETABULEIRO
+
+   Total linhas:              1893
+   Linhas de código:           629
+   Linhas de comentário:      1056
+   Linhas em branco:           253
+   Arquivos processados:         7
+

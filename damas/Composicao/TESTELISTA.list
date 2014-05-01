@@ -1,0 +1,92 @@
+GERADOR DE SCRIPT DE DIRETIVAS PARA MAKE
+   LES / Informática / PUC-Rio    Versão 6.00 (c) 2005
+
+Composição do construto: TESTELISTA.comp
+
+   Nome do Construto:           TESTELISTA
+   Diretório base:              c:\Users\Jose\Documents\GitHub\damas\Composicao
+
+   Arquivo composição:          TESTELISTA.comp
+   Arquivo plataforma:          gmake.parm
+
+   Arquivo diretivas MAKE:      TESTELISTA.make
+   Arquivo diretivas LINK:      TESTELISTA.build
+   Arquivo listagem:            TESTELISTA.list
+
+Módulos do construto: TESTELISTA.comp
+
+   TestLista.c
+   Lista.c
+
+Estatísticas do construto
+
+   Estatísticas do arquivo: Lista.c
+      Total linhas:             464
+      Linhas de código:         253
+      Linhas de comentário:     139
+      Linhas em branco:          88
+   Arquivos de inclusão de que necessita
+      lista.h
+
+   Estatísticas do arquivo: TestLista.c
+      Total linhas:             439
+      Linhas de código:         245
+      Linhas de comentário:     106
+      Linhas em branco:         109
+   Arquivos de inclusão de que necessita
+      lista.h
+
+   Estatísticas do arquivo: lista.h
+      Total linhas:             359
+      Linhas de código:          30
+      Linhas de comentário:     298
+      Linhas em branco:          36
+   Arquivos em que é incluído
+      Lista.c
+      TestLista.c
+
+Totais por tipo de arquivo
+
+  Tipo: h        Path: ..\Fontes
+         Total linhas do tipo:       359
+         Linhas de código:            30
+         Linhas de comentário:       298
+         Linhas em branco:            36
+         Arquivos deste tipo:          1
+
+  Tipo: obj      Path: ..\Objetos
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: err      Path: ..\Produto
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: DEFAULT  Path: ..\Fontes
+         Total linhas do tipo:         0
+         Linhas de código:             0
+         Linhas de comentário:         0
+         Linhas em branco:             0
+         Arquivos deste tipo:          0
+
+  Tipo: c        Path: ..\Fontes
+         Total linhas do tipo:       903
+         Linhas de código:           498
+         Linhas de comentário:       245
+         Linhas em branco:           197
+         Arquivos deste tipo:          2
+
+Totais para todo o construto TESTELISTA
+
+   Total linhas:              1262
+   Linhas de código:           528
+   Linhas de comentário:       543
+   Linhas em branco:           233
+   Arquivos processados:         3
+
